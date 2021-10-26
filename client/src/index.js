@@ -1,2 +1,12 @@
-console.log("Este es un console log");
-/*Added simple changes*/
+import React from "react";
+import ReactDOM from "react-dom";
+
+import "./_base.scss";
+import App from "./components/App";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
